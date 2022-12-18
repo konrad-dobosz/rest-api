@@ -19,8 +19,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('dobosz/people', [PeopleController::class, 'index']);
-Route::get('dobosz/people/{people}', [PeopleController::class, 'show']);
-Route::post('dobosz/people', [PeopleController::class, 'store']);
-Route::put('dobosz/people/{people}', [PeopleController::class, 'update']);
-Route::delete('dobosz/people/{people}', [PeopleController::class, 'delete']);
+Route::get('dobosz/305355/people', [PeopleController::class, 'index']);
+Route::get('dobosz/305355/people/{people}', [PeopleController::class, 'show']);
+Route::post('dobosz/305355/people', [PeopleController::class, 'store']);
+Route::put('dobosz/305355/people/{people}', [PeopleController::class, 'update']);
+Route::delete('dobosz/305355/people/{people}', [PeopleController::class, 'delete']);
